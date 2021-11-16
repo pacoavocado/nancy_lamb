@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: url(/assets/images/gotime.jpg);
+  background-position: center;
+  /* display:flex; */
+}
+.prof-name {
+  padding-left: 3em;
+  font:xx-large;
+  font-family: Arial;
+  color: bisque;
+  text-shadow: 1px 1px 2px red, 0 0 1em blueviolet, 0 0 0.2em blueviolet;
+}
+
+header {
+  display: flex;
+  /* flex: 0 4 auto; */
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* height: 20vh; */
+  font-size: 4em;
+}
+
+h1 {
+  font-size: smaller;
+}
+
+header a {
+  font-size: large;
+  font-weight: bolder;
+  cursor: pointer;
+  /* color: white; */
+}
+
+li a {
+  font-family: Arial;
+  font-size: larger;
+  color: yellow;
+  cursor: pointer;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px 20px 20px 20px;
+  font-size: larger;
+  font-weight: bolder;
+  cursor: pointer;
+  color: white;
+  text-shadow: 5px 5px 5px red, 0 0 1em blueviolet, 0 0 0.2em blueviolet;
+
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+.middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /* height: 100vh; */
+}
+
+.abtPic {
+  border-radius: 12em;
+  transform: scale(1.5);
+  /* left: 2.5em; */
+}
+
+#description {
+  flex: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: Arial;
+  font-size: larger;
+  font-weight: bolder;
+  /* cursor: pointer; */
+  color: white;
+  text-shadow: 5px 5px 5px red, 0 0 1em green, 0 0 0.2em goldenrod;
+
+}
+#description1 {
+  flex: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+  align-items: center;
+  font-family: Arial;
+  font-size: 20vh;
+  font-weight: bolder;
+  /* cursor: pointer; */
+  color: white;
+  text-shadow: 13px 13px 13px red, 0 0 1em green, 0 0 0.2em goldenrod;
+
+}
+
+.homeimg {
+  width: 100vw;
+}
+
+.card2 img {
+  display: flex;
+  flex-direction: column;
+  grid-column: 2 0 auto;
+  border: 2px solid black;
+  margin: 10px 10px;
+  width: 80vw;
+}
+
+.left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.right {
+  /* width: 70vw; */
+  justify-content: flex-end;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+}
+
+.footer a {
+  font-size: 10vh;
+  font-weight: bolder;
+  cursor: pointer;
+  color: white;
+  text-shadow: 15px 15px 15px red, 0 0 2em blueviolet, 0 0 0.2em blueviolet;
+
+}
